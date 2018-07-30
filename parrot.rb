@@ -1,2 +1,5 @@
-# Create method `parrot` that outputs a given phrase and
-# returns the phrase
+def parrot(name, call = "Squawk!")
+  name = Ammar
+  puts "#{name}, my parrot, is so loud. Listen: #{call}"
+  return parrot(name, call)
+end
